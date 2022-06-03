@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Habits is a 21 day program where you set out to complete 6 habits every day. The expectation is to complete 4 to 5 of these every day. If you miss a day, do not perform a habit-slip compensation (fancy phrase for 'punishment') where you, for example, try to over-perform the next day to make up for the missed day. At the end of the journey, you go on auto-pilot to see what sticks! The 21 day 6 habit technique here is based on renowned neuroscientist Andrew Huberman's directions. You can find out more on Youtube: 'The Science of Making and Breaking Habits| Huberman Lab Podcast #53' According to Huberman, this technique may be extremely useful in achieving context independent, less-limbic-frictitious habit formation. Basically means that it's a great way to form habits. The habits you choose can range from a simple thing like waking up a certain time of day, to challenging tasks such as heavy-weight workouts. The aim is to promote neuroplasticity. Any habit is a habit! After the journey, do not set out to do 6 new habits. Examine how many of your habits that you initially set out to perform have become a natural part of your daily process, in other words, a habit of yours. I hope you like what you might find out about yourself!    -Fuat"
+
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
